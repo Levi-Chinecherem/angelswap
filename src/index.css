@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    .bg-vintage-pattern {
+        background-image: url('/path-to-vintage-pattern.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+}

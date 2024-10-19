@@ -1,0 +1,14 @@
+
+npx hardhat run scripts/deploy_tokens.js --network pulsechain
+
+
+npx hardhat run scripts/deploy_liquidity_pool.js --network pulsechain
+
+
+npx hardhat run scripts/deploy_order_book.js --network pulsechain
+
+
+npx hardhat run scripts/deploy_faucet.js --network pulsechain
+
+
+npx hardhat run scripts/deploy_security_features.js --network pulsechain
